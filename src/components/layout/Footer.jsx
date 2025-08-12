@@ -73,7 +73,7 @@ function Footer() {
             </p>
             <div className="flex space-x-4">
               <a
-                href={settings?.social_links?.instagram}
+                href=""
                 target="_blank"
                 rel="noreferrer"
                 className="text-gray-600 dark:text-gray-400 hover:text-primary-600 dark:hover:text-primary-400 transition-colors"
@@ -82,7 +82,7 @@ function Footer() {
                 <FiInstagram size={20} />
               </a>
               <a
-                href={settings?.social_links?.facebook}
+                href=""
                 target="_blank"
                 rel="noreferrer"
                 className="text-gray-600 dark:text-gray-400 hover:text-primary-600 dark:hover:text-primary-400 transition-colors"
@@ -91,7 +91,7 @@ function Footer() {
                 <FiFacebook size={20} />
               </a>
               <a
-                href={`mailto:${settings?.social_links?.email}`}
+                href={`mailto:mohammad-elprince@proton.me`}
                 className="text-gray-600 dark:text-gray-400 hover:text-primary-600 dark:hover:text-primary-400 transition-colors"
                 aria-label="Email"
               >
